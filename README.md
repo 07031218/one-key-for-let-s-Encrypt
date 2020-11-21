@@ -3,3 +3,4 @@
 最好的条件就是干净的系统下直接运行该脚本哦
 ```
 bash <(wget -qO- http://aria2.xun-da.com/run.sh) 
+```
