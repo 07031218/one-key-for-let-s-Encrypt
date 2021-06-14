@@ -2,5 +2,5 @@
 
 最好的条件就是干净的系统下直接运行该脚本哦
 ```
-bash <(curl -s https://raw.githubusercontent.com/07031218/one-key-for-let-s-Encrypt/main/run.sh?token=AAZYZ2DN753WED4A3PSC4B3AV5N3M) 
+bash <(curl -s https://raw.githubusercontent.com/07031218/one-key-for-let-s-Encrypt/main/run.sh) 
 ```
