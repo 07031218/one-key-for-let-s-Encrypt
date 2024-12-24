@@ -2,14 +2,14 @@
 #author yaozhongjie
  
 echo "=======================Let's Encrypt环境准备======================================="
-if command -v python > /dev/null 2>&1; then
+if command -v python3 > /dev/null 2>&1; then
     echo 'python 环境就绪...'
-    python_command=python
+    python_command=python3
 else
     echo 'python环境不存在，即将开始自动安装。。'
-    apt-get -y install python || yum -y install python
+    apt-get -y install python3 || yum -y install python3
     echo 'python 安装成功'
-    python_command=python
+    python_command=python3
  
 fi
 if command -v openssl > /dev/null 2>&1; then
